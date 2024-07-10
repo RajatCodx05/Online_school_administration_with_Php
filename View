@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+</head>
+<body>
+    <h1>Students</h1>
+    <table>
+        <tr>
+            <th>Reg No</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Blood Group</th>
+        </tr>
+        <?php foreach ($students as $student): ?>
+        <tr>
+            <td><?php echo $student['regno']; ?></td>
+            <td><?php echo $student['name']; ?></td>
+            <td><?php echo $student['address']; ?></td>
+            <td><?php echo $student['email']; ?></td>
+            <td><?php echo $student['phone']; ?></td>
+            <td><?php echo $student['blood']; ?></td>
+        </tr>
+        <?php endforeach; ?>
+    </table>
+</body>
+</html>
