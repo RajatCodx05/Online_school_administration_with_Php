@@ -7,16 +7,16 @@ This system helps to find student information in just few seconds, checking for 
 # Module Description
 1. Admin Panel: Admin can manage teachers, school staff, courses and can add notice. Admin can add new teachers and staff details and can also update the existing members detail
 2. Administrator Panel: Administrator has authority to manage students by adding new students and updating student’s information. Administrator can also check complaints raised by students and Books available.
-3.Teacher Panel: Teachers can login and check for the study materials, view students, view the available books in library and check the notices
-4.Student Panel: Students can login using provided credentials, they can view study materials, library, notices nd assigned teachers. Students can also raise complaints.
+3. Teacher Panel: Teachers can login and check for the study materials, view students, view the available books in library and check the notices
+4. Student Panel: Students can login using provided credentials, they can view study materials, library, notices nd assigned teachers. Students can also raise complaints.
 # Database Description
-Users (userid, password, type)
-Admindetail (id, name, address, email, phone, cabin)
-Administratordetail (id, name, address, email, phone, cabin)
-Teacherdetail (id, name, address, email, phone, cabin)
-Studentdetail (regno, name, address, email, phone, blood)
-Coursedetail (cid, cname)
-Programmedetail (pid, pname)
+1. Users (userid, password, type)
+2. Admindetail (id, name, address, email, phone, cabin)
+3. Administratordetail (id, name, address, email, phone, cabin)
+4. Teacherdetail (id, name, address, email, phone, cabin)
+5. Studentdetail (regno, name, address, email, phone, blood)
+6. Coursedetail (cid, cname)
+7. Programmedetail (pid, pname)
 # Front End Design
 The front end is made by HTML along with CSS properties for designing purpose and Javascript to make the web application responsive and validate the forms.
 
