@@ -5,10 +5,10 @@ This ongoing project is an online application of school management system using 
 This system helps to find student information in just few seconds, checking for notice, books available in library and raising complaints. This system has four entity namely, Admin, Administrator, Teachers and students. Admin can manage teachers, school staff, courses and can add notice. Admin can add new teachers and staff details and can also update the existing members detail. Administrator has authority to manage students by adding new students and updating student’s information. Administrator can also check complaints raised by students and Books available. Teachers can login and check for the study materials, view students, view the available books in library and check the notices. Students can login using provided credentials, they can view study materials, library, notices nd assigned teachers. Students can also raise complaints. Most importantly, this information can be easily shared with authorized users, records can be easily searched, and reports can be easily generated. Advantages • The workload upon the staff members is reduced. • This increases the interaction between the staff and the students. • It saves paper and keeps digital track of the data.
 
 # Module Description
-Admin Panel: Admin can manage teachers, school staff, courses and can add notice. Admin can add new teachers and staff details and can also update the existing members detail
-Administrator Panel: Administrator has authority to manage students by adding new students and updating student’s information. Administrator can also check complaints raised by students and Books available.
-Teacher Panel: Teachers can login and check for the study materials, view students, view the available books in library and check the notices
-Student Panel: Students can login using provided credentials, they can view study materials, library, notices nd assigned teachers. Students can also raise complaints.
+1.Admin Panel: Admin can manage teachers, school staff, courses and can add notice. Admin can add new teachers and staff details and can also update the existing members detail
+2.Administrator Panel: Administrator has authority to manage students by adding new students and updating student’s information. Administrator can also check complaints raised by students and Books available.
+3.Teacher Panel: Teachers can login and check for the study materials, view students, view the available books in library and check the notices
+4.Student Panel: Students can login using provided credentials, they can view study materials, library, notices nd assigned teachers. Students can also raise complaints.
 # Database Description
 Users (userid, password, type)
 Admindetail (id, name, address, email, phone, cabin)
