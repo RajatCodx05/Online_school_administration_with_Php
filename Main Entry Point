@@ -1,0 +1,27 @@
+<?php
+require '../config/config.php';
+
+if (isset($_GET['page'])) {
+    $page = $_GET['page'];
+} else {
+    $page = 'home';
+}
+
+switch ($page) {
+    case 'students':
+        require '../src/controllers/students.php';
+        break;
+    case 'teachers':
+        require '../src/controllers/teachers.php';
+        break;
+    case 'admin':
+        require '../src/controllers/admin.php';
+        break;
+    case 'administrator':
+        require '../src/controllers/administrator.php';
+        break;
+    default:
+        require '../src/controllers/home.php';
+        break;
+}
+?>
