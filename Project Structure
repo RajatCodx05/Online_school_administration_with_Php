@@ -1,0 +1,15 @@
+online-school-management/
+├── config/
+│   └── config.php
+├── public/
+│   ├── index.php
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── src/
+│   ├── controllers/
+│   ├── models/
+│   └── views/
+├── sql/
+│   └── schema.sql
+└── README.md
