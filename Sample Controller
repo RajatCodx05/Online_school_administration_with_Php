@@ -1,0 +1,7 @@
+<?php
+require '../models/Student.php';
+
+$students = Student::getAll();
+
+require '../views/students.php';
+?>
