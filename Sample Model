@@ -1,0 +1,15 @@
+<?php
+require_once '../../config/config.php';
+
+class Student {
+    public static function getAll() {
+        $db = getDB();
+        $result = $db->query("SELECT * FROM studentdetail");
+        $students = [];
+        while ($row = $result->fetch_assoc()) {
+            $students[] = $row;
+        }
+        return $students;
+    }
+}
+?>
