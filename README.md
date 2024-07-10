@@ -6,7 +6,7 @@ This system helps to find student information in just few seconds, checking for 
 
 # Module Description
 1. Admin Panel: Admin can manage teachers, school staff, courses and can add notice. Admin can add new teachers and staff details and can also update the existing members detail
-2.Administrator Panel: Administrator has authority to manage students by adding new students and updating student’s information. Administrator can also check complaints raised by students and Books available.
+2. Administrator Panel: Administrator has authority to manage students by adding new students and updating student’s information. Administrator can also check complaints raised by students and Books available.
 3.Teacher Panel: Teachers can login and check for the study materials, view students, view the available books in library and check the notices
 4.Student Panel: Students can login using provided credentials, they can view study materials, library, notices nd assigned teachers. Students can also raise complaints.
 # Database Description
