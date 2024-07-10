@@ -1,0 +1,59 @@
+-- users table
+CREATE TABLE users (
+    userid INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    type ENUM('admin', 'administrator', 'teacher', 'student') NOT NULL
+);
+
+-- admin details
+CREATE TABLE admindetail (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    address TEXT,
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    cabin VARCHAR(50)
+);
+
+-- administrator details
+CREATE TABLE administratordetail (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    address TEXT,
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    cabin VARCHAR(50)
+);
+
+-- teacher details
+CREATE TABLE teacherdetail (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    address TEXT,
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    cabin VARCHAR(50)
+);
+
+-- student details
+CREATE TABLE studentdetail (
+    regno INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    address TEXT,
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    blood VARCHAR(5)
+);
+
+-- course details
+CREATE TABLE coursedetail (
+    cid INT AUTO_INCREMENT PRIMARY KEY,
+    cname VARCHAR(50) NOT NULL
+);
+
+-- program details
+CREATE TABLE programmedetail (
+    pid INT AUTO_INCREMENT PRIMARY KEY,
+    pname VARCHAR(50) NOT NULL
+);
